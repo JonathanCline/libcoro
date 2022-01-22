@@ -8,9 +8,9 @@ execute_process(
     WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
-option(LIBCORO_BUILD_TESTS    "Build the tests, Default=ON." ON)
+option(LIBCORO_BUILD_TESTS    "Build the tests, Default=ON." OFF)
 option(LIBCORO_CODE_COVERAGE  "Enable code coverage, tests must also be enabled, Default=OFF" OFF)
-option(LIBCORO_BUILD_EXAMPLES "Build the examples, Default=ON." ON)
+option(LIBCORO_BUILD_EXAMPLES "Build the examples, Default=ON." OFF)
 
 message("${PROJECT_NAME} LIBCORO_BUILD_TESTS      = ${LIBCORO_BUILD_TESTS}")
 message("${PROJECT_NAME} LIBCORO_CODE_COVERAGE    = ${LIBCORO_CODE_COVERAGE}")

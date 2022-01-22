@@ -20,8 +20,6 @@ set(CARES_STATIC    ON  CACHE INTERNAL "")
 set(CARES_SHARED    OFF CACHE INTERNAL "")
 set(CARES_INSTALL   OFF CACHE INTERNAL "")
 
-add_subdirectory(vendor/c-ares/c-ares)
-
 set(LIBCORO_SOURCE_FILES
     inc/coro/concepts/awaitable.hpp
     inc/coro/concepts/buffer.hpp

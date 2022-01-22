@@ -35,7 +35,6 @@ set(LIBCORO_SOURCE_FILES
     inc/coro/generator.hpp
     inc/coro/latch.hpp
     inc/coro/mutex.hpp src/mutex.cpp
-    inc/coro/poll.hpp
     inc/coro/ring_buffer.hpp
     inc/coro/semaphore.hpp src/semaphore.cpp
     inc/coro/shared_mutex.hpp
